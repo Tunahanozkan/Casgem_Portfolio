@@ -1,0 +1,44 @@
+﻿﻿@using Casgem_Portfolio.Models.Entities
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_PortfolioAdminLayout.cshtml";
+}
+
+<br />
+<h2>Hakkımda Düzenleme sayfası</h2>
+<br />
+<form method="post">
+    @foreach (var item in Model)
+    {
+        <label>Ad</label>
+        <input type="text" name="Name" value="@item.Name" class="form-control" />
+
+
+        <label>Soyad</label>
+        <input type="text" name="Surname" value="@item.Surname" class="form-control" />
+
+
+        <label>Adres</label>
+        <textarea rows="5" class="form-control" name="Address">@item.Address</textarea>
+
+
+
+        <label>Mail</label>
+        <input type="text" name="Mail" value="@item.Mail" class="form-control" />
+
+
+        <label>Telefon</label>
+        <input type="text" name="PhoneNumber" value="@item.PhoneNumber" class="form-control" />
+
+
+        <label>Resim</label>
+        <input type="text" name="ImageUrl" value="@item.ImageUrl" class="form-control" />
+
+
+        <label>Açıklama</label>
+        <textarea rows="5" class="form-control" name="Des">@item.Des</textarea>
+        <br />
+
+    }
+    <br />
+</form>

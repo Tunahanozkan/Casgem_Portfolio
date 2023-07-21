@@ -1,0 +1,35 @@
+﻿﻿@model List<Casgem_Portfolio.Models.Entities.tbl_socialmedya>
+
+@{
+    Layout = null;
+}
+
+
+<section class="w3l-footer py-sm-5 py-4">
+    <div class="container">
+        <div class="footer-content">
+            <div class="row">
+                <div class="col-lg-8 footer-left">
+                    <p class="m-0">Tunahan Özkan © Copyright 2023. Dizayn  <a href="https://w3layouts.com">W3layouts</a></p>
+                </div>
+
+
+                <div class="col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3">
+
+
+
+                    <ul class="social m-0 p-0">
+
+                        @foreach (var item in Model)
+                        {
+                            <li><a href="@item.SocialMedyaUrl"><span class="@item.SocialMedyaIcon"></span></a></li>
+                        }
+
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

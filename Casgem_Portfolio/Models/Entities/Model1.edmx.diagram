@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f6c5657e0998448fadc8f2e18f767c0d" Name="Diagram1">
+        <EntityTypeShape EntityType="CasgemPortfolioModel.tbl_service" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CasgemPortfolioModel.tbl_referance" Width="1.5" PointX="2.75" PointY="2.875" />
+        <EntityTypeShape EntityType="CasgemPortfolioModel.tbl_projects" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CasgemPortfolioModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="3.75" />
+        <EntityTypeShape EntityType="CasgemPortfolioModel.Tbl_Employee" Width="1.5" PointX="3" PointY="6" />
+        <EntityTypeShape EntityType="CasgemPortfolioModel.TblDepartment" Width="1.5" PointX="0.75" PointY="6.375" />
+        <AssociationConnector Association="CasgemPortfolioModel.FK_Tbl_Employee_TblDepartment" />
+        <EntityTypeShape EntityType="CasgemPortfolioModel.tbl_feature" Width="1.5" PointX="5.375" PointY="6.75" />
+        <EntityTypeShape EntityType="CasgemPortfolioModel.tbl_message" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="CasgemPortfolioModel.tbl_about" Width="1.5" PointX="7.75" PointY="6.75" />
+        <EntityTypeShape EntityType="CasgemPortfolioModel.tbl_Admin" Width="1.5" PointX="8.75" PointY="3.75" />
+        <EntityTypeShape EntityType="CasgemPortfolioModel.tbl_resume" Width="1.5" PointX="9.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CasgemPortfolioModel.tbl_skills" Width="1.5" PointX="0.75" PointY="9.75" />
+        <EntityTypeShape EntityType="CasgemPortfolioModel.tbl_socialmedya" Width="1.5" PointX="2.75" PointY="9.75" />
+        <EntityTypeShape EntityType="CasgemPortfolioModel.tbl_video" Width="1.5" PointX="4.75" PointY="9.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

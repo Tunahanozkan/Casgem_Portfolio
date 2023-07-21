@@ -1,0 +1,21 @@
+﻿@model Casgem_Portfolio.Models.Entities.tbl_about
+@{
+    ViewBag.Title = "ContactDetails";
+    Layout = "~/Views/Shared/_PortfolioAdminLayout.cshtml";
+}
+
+<div class="card text-white bg-info mb-3" style="width: %100 ;">
+    <div class="card-header">İletişim Bilgilerim</div>
+    <div class="card-body">
+        <h6 class="card-title">Referans Detayları Görüntüleniyor</h6>
+        Ad : @Html.DisplayFor(x => x.Name)
+        <br />
+        Ad : @Html.DisplayFor(x => x.Surname)
+        <br />
+        Telefon No : @Html.DisplayFor(x => x.PhoneNumber)
+        <br />
+        Mail Adresi : @Html.DisplayFor(x => x.Mail)
+        <br />
+        Adres Bilgileri : @Html.DisplayFor(x => x.Address)
+    </div>
+</div>

@@ -1,0 +1,44 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="en">
+
+@Html.Action("PartialHead")
+
+<body>
+    <!-- header -->
+    @Html.Action("HeaderPartial")
+    <!-- //header -->
+    <!-- about breadcrumb -->
+    @Html.Action("BreadcrumbPartial")
+    <!-- //about breadcrumb -->
+    <!-- about page about section -->
+    @Html.Action("AboutPartial")
+    <!-- //about page about section -->
+    <!-- about page second section -->
+    @Html.Action("About2Partial")
+    <!-- //about page about section -->
+    <!-- about page third section -->
+    @*@Html.Action("About3Partial")*@
+    <!-- about page third section -->
+    <!-- subscribe block -->
+    @Html.Action("AchievementsScript")
+    <!-- //subscribe block -->
+    <!-- achievements block -->
+    @Html.Action("SubscribeScript")
+    <!-- //achievements block -->
+    <!-- Footer -->
+
+
+    @Html.Action("FooterScript")
+
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+﻿@model Casgem_Portfolio.Models.Entities.tbl_referance
+
+@{
+    ViewBag.Title = "ReferenceDetails";
+    Layout = "~/Views/Shared/_PortfolioAdminLayout.cshtml";
+}
+
+<div class="card text-white bg-info mb-3" style="width: %100 ;">
+    <div class="card-header">Referanslar</div>
+    <div class="card-body">
+        <h6 class="card-title">Referans Detayları Görüntüleniyor</h6>
+        Telefon No : @Html.DisplayFor(x => x.PhoneNumber)
+        <br />
+        Referansın Adı : @Html.DisplayFor(x => x.NameSurname)
+        <br />
+        Mesleği : @Html.DisplayFor(x => x.JOB)
+        <br />
+        Mail Adresi : @Html.DisplayFor(x => x.Email)
+    </div>
+</div>
